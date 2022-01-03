@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toon sol
+  m_Shader: {fileID: 4800000, guid: c286f9d885d3f264eacd0046ed97e65c, type: 3}
+  m_ShaderKeywords: _CASTSHADOWS_ON _COLORONLY_ON _DRAWSHADOWASSOLIDCOLOR_ON _RECEIVESHADOWS_ON
+    _USEAMBIENT_ON _USESHADOWTEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DitherPattern:
+        m_Texture: {fileID: 2800000, guid: 3f0b80252b195e54c99ec42ecec2cc83, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HalftonePattern:
+        m_Texture: {fileID: 2800000, guid: dc4357c345dc244458cd5f4b5a3a25f3, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 4e2f32e9a1fefc24092337ae061f3dbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d9c0dd5cdac07b145be73329e489869a, type: 3}
+        m_Scale: {x: 60, y: 60}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicStrengthMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineAnimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 99eb5110c747c7d4d9cc25c8d7785857, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _CastShadows: 1
+    - _ColorOnly: 1
+    - _ColorOnly2: 0
+    - _ConstantOutlineSize: 0
+    - _ConstantOutlineSize2: 0
+    - _Cutoff: 1
+    - _CutoutRange: 1
+    - _DoubleSided: 2
+    - _DrawReceivedShadowsAsSolidColor: 0
+    - _DrawShadowAsSolidColor: 1
+    - _EndOutlineGradientSmooth: 1
+    - _EndOutlineGradientSmooth2: 1
+    - _FresnelAmount: 1
+    - _FresnelPower: 1
+    - _GlossMapStrength: 0
+    - _Glossiness: 10
+    - _GradientAffectsLighting: 0
+    - _GradientAffectsLighting2: 0
+    - _HalftoneTexRotation: 0
+    - _HalftoneTexSize: 0.5
+    - _HardFresnel: 0
+    - _Height: 0
+    - _InvertGradient: 0
+    - _InvertGradient2: 0
+    - _LightOnOutline: 0
+    - _LightingAffectsLightOutline: 0
+    - _LightingAffectsLightOutline2: 0
+    - _LightingAffectsRim: 0
+    - _LightingAffectsShadow: 0
+    - _LightingAffectsSpecular: 0
+    - _LocalSourcePos: 0
+    - _MaxDistance: 0.6
+    - _MaxDistanceMesh: 0.3
+    - _MaxDistanceOutline: 0.3
+    - _MeshCullMode: 2
+    - _Metallic: 0
+    - _MetallicMapStrength: 0
+    - _MetallicStrength: 1
+    - _MinDistance: 0.5
+    - _MinDistanceMesh: 0.2
+    - _MinDistanceOutline: 0.2
+    - _NormalAffectsReflection: 1
+    - _NormalStrength: 0.05
+    - _OcclusionStrength: 1
+    - _OutlineCullMode: 2
+    - _OutlineDot: 0.25
+    - _OutlineDot2: 0.5
+    - _OutlineDotDistance: 0.5
+    - _OutlineDotScale: 0.25
+    - _OutlineExtrusion: 0.01
+    - _OutlineExtrusion2: 0.003
+    - _OutlineLightSmooth: 0.2
+    - _OutlineLightSmooth2: 0.2
+    - _OutlineOnly: 0
+    - _OutlineSpeed: 50
+    - _PivotOutlineGradient: 0.5
+    - _PivotOutlineGradient2: 0.5
+    - _ReceiveShadows: 1
+    - _ReceivedShadowsLightAttenCoef: 0
+    - _ReceivedShadowsTexTransparencyCoef: 1
+    - _ReflectionAffectsShadow: 0
+    - _ReflectionIntensity: 1
+    - _RemapInputMax: 0
+    - _RemapInputMin: 1
+    - _RemapOutputMax: 0.8
+    - _RemapOutputMin: 0.25
+    - _RimAmount: 0.392
+    - _RimNbSteps: 2
+    - _RimReceivesShadows: 0
+    - _RimStepWidth: 0.25
+    - _RimThreshold: 0.496
+    - _ScreenSpaceHalftone: 0
+    - _SeparateNdotlFromReceivedShadows: 0
+    - _Shadow: -27.96
+    - _ShadowEmissionIntensity: 1
+    - _ShadowFalloff: 0
+    - _ShadowNbSteps: 2
+    - _ShadowStepWidth: 0.25
+    - _ShadowTexRotation: 0
+    - _ShadowTexSize: 0.1
+    - _ShadowTexTransparencyCoef: 1
+    - _Shininess: 1
+    - _SkyboxAmbientIntensity: 1
+    - _SkyboxInfluence: 1
+    - _SpecularFalloff: 2
+    - _SpecularNbSteps: 2
+    - _SpecularSize: 0.35
+    - _SpecularStepWidth: 0.25
+    - _StartOutlineGradientSmooth: 0
+    - _StartOutlineGradientSmooth2: 0
+    - _StencilID: 2
+    - _StepAmount: 2
+    - _StepWidth: 0.388
+    - _TextureAffectsFresnel: 0
+    - _TextureAffectsRim: 0
+    - _TextureAffectsSpecular: 0
+    - _TextureEmissionIntensity: 1
+    - _UseAmbient: 1
+    - _UseAmbientSkybox: 0
+    - _UseAmbientTint: 0
+    - _UseAnimation: 0
+    - _UseAnimation2: 0
+    - _UseEnvironmentalRelfection: 0
+    - _UseFresnel: 0
+    - _UseHalftone: 0
+    - _UseLightOnOutline: 0
+    - _UseLightOnOutline2: 0
+    - _UseOutline: 0
+    - _UseOutline2: 0
+    - _UseReceivedShadows: 1
+    - _UseRimLighting: 0
+    - _UseShadow: 1
+    - _UseShadowTex: 1
+    - _UseShadowTexForReceivedShadows: 0
+    - _UseSkyboxRelfection: 0
+    - _UseSpecular: 0
+    - _VerticalGradient: 1
+    - _VerticalGradient2: 1
+    m_Colors:
+    - _AmbientColor: {r: 0, g: 0.68675303, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LightOutlineColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _LitSideColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineFirstColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineFirstColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineLastColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineLastColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _ReceivedShadowsColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 0.44705883}
+    - _ShadowColor: {r: 0, g: 0.42352942, b: 0.007179081, a: 1}
+    - _ShadowTint: {r: 1, g: 0, b: 0, a: 1}
+    - _SourcePos: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularTint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
