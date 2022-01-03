@@ -7,7 +7,8 @@ This shader currently supports:
 - The ability to use texture maps (normal, gloss, metallic & occlusion),
 - Support for skybox & ambient reflection,
 - Support for textured & colored shadows, shadow cast/Receive, specular light, rim light & fresnel effect,
-- Very flexible shading settings, with each main lighting option (shadows, specular, etc.) able to be independant from the main light source.
+- Very flexible shading settings, with each main lighting option (shadows, specular, etc.) able to be independant from the main light source,
+- Cutout mode and Transparency.
 
 This shader is susceptible to future changes.
 
