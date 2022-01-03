@@ -9,6 +9,7 @@ This shader currently supports:
 - Support for textured & colored shadows, shadow cast/Receive, specular light, rim light & fresnel effect,
 - Very flexible shading settings, with each main lighting option (shadows, specular, etc.) able to be independant from the main light source.
 
+This shader is susceptible to future changes.
 
 https://user-images.githubusercontent.com/23258134/147943620-147cf420-cffa-459f-89b5-5c3c484ffac8.mp4
 
